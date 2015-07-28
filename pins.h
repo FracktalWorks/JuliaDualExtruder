@@ -99,7 +99,7 @@ PC1[11]17         PC2[12]18
   #define Y_STOP_PIN          8
   #define Z_STOP_PIN         36
   #define TEMP_0_PIN          1  // Extruder / Analog pin numbering
-  #define TEMP_1_PIN          2
+  #define TEMP_1_PIN          3  // 2 (A2) is connected to chip select. Assuming A3 = 3 in Marlin
   #define TEMP_BED_PIN        0  // Bed / Analog pin numbering
 #endif
 
