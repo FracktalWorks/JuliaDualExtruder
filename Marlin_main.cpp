@@ -221,9 +221,9 @@ int extruder_multiply[EXTRUDERS] = {100
 bool volumetric_enabled = false;
 float filament_size[EXTRUDERS] = { 
   #if EXTRUDERS > 1
-      , DEFAULT_NOMINAL_FILAMENT_DIA
+      //, DEFAULT_NOMINAL_FILAMENT_DIA
     #if EXTRUDERS > 2
-       , DEFAULT_NOMINAL_FILAMENT_DIA
+      //, DEFAULT_NOMINAL_FILAMENT_DIA
     #endif
   #endif
 };

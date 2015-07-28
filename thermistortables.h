@@ -1,4 +1,4 @@
-²#ifndef THERMISTORTABLES_H_
+#ifndef THERMISTORTABLES_H_
 #define THERMISTORTABLES_H_
 
 #include "Marlin.h"
