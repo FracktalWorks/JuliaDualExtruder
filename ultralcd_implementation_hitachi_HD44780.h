@@ -461,7 +461,7 @@ static void lcd_implementation_status_screen()
 #if LCD_WIDTH < 20
     lcd.setCursor(0, 0);
     lcd.print(itostr3(tHotend));
-    lcd.print('/');
+    lcd.print('//');
     lcd.print(itostr3left(tTarget));
 
 # if EXTRUDERS > 1 || TEMP_SENSOR_BED != 0
